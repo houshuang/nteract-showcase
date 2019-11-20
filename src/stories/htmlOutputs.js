@@ -1,0 +1,9 @@
+export default [
+  {
+    data: {
+      'text/plain':
+        '                   A         B         C         D\n2013-01-01  0.054046 -1.572176  0.591628  0.428691\n2013-01-02 -0.017407 -1.214213 -1.248224  1.646831\n2013-01-03  0.508551  0.424704 -0.664920 -0.254708\n2013-01-04  1.723381 -0.464555 -1.313594 -1.172184\n2013-01-05 -1.400688 -0.732488  0.400853  0.545349\n2013-01-06 -0.442293  0.858670 -0.608252  3.343767',
+      'text/html': `<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border="1" class="dataframe">\n  <thead>\n    <tr style="text-align: right;">\n      <th></th>\n      <th>A</th>\n      <th>B</th>\n      <th>C</th>\n      <th>D</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>2013-01-01</th>\n      <td>0.054046</td>\n      <td>-1.572176</td>\n      <td>0.591628</td>\n      <td>0.428691</td>\n    </tr>\n    <tr>\n      <th>2013-01-02</th>\n      <td>-0.017407</td>\n      <td>-1.214213</td>\n      <td>-1.248224</td>\n      <td>1.646831</td>\n    </tr>\n    <tr>\n      <th>2013-01-03</th>\n      <td>0.508551</td>\n      <td>0.424704</td>\n      <td>-0.664920</td>\n      <td>-0.254708</td>\n    </tr>\n    <tr>\n      <th>2013-01-04</th>\n      <td>1.723381</td>\n      <td>-0.464555</td>\n      <td>-1.313594</td>\n      <td>-1.172184</td>\n    </tr>\n    <tr>\n      <th>2013-01-05</th>\n      <td>-1.400688</td>\n      <td>-0.732488</td>\n      <td>0.400853</td>\n      <td>0.545349</td>\n    </tr>\n    <tr>\n      <th>2013-01-06</th>\n      <td>-0.442293</td>\n      <td>0.858670</td>\n      <td>-0.608252</td>\n      <td>3.343767</td>\n    </tr>\n  </tbody>\n</table>\n</div>`,
+    },
+  },
+];
