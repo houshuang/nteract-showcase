@@ -1451,13 +1451,13 @@
     react-table-hoc-fixed-columns "2.1.2"
     semiotic "^1.19.8"
 
-"@nteract/markdown@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@nteract/markdown/-/markdown-4.2.0.tgz#8b4b61a2000dbd4cc7dd8b5e6c1de40e02ee8f2a"
-  integrity sha512-JTR5bp5H4aIwDFTAoZmVEG8VZHFB3EFhJEAGwnknu+D2ZChfH2zwQvx3c+5zPg+Amt75qM+9KlYAoF1fE1dy9Q==
+"@nteract/markdown@^4.1.0":
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/@nteract/markdown/-/markdown-4.3.7.tgz#169fa938d7725ad3d64d8ec95812263b73f8bc46"
+  integrity sha512-9U0aBiazegnePIIf2VtJWz8Yy8RzrUJsodV/3y3SzacY1NQ5pUPnHySIZO1jbXdTplCLYMJJdsNgAuj0yiXV+w==
   dependencies:
-    "@nteract/mathjax" "^4.0.1"
-    "@nteract/presentational-components" "^3.2.0"
+    "@nteract/mathjax" "^4.0.5"
+    "@nteract/presentational-components" "^3.3.7"
     react-markdown "^4.0.0"
 
 "@nteract/mathjax@^4.0.1":
@@ -1465,23 +1465,32 @@
   resolved "https://registry.yarnpkg.com/@nteract/mathjax/-/mathjax-4.0.1.tgz#2d3e30121e6c3d1019f1407f986e696de460c688"
   integrity sha512-LFDvpdmFFfaWng/5HboLPWNw856qwZT/LejtCe09Fk35b/QLyaKuRpND0jzPNwnDovr6VQpX0fiLY9gpZTQVqQ==
 
+"@nteract/mathjax@^4.0.5":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@nteract/mathjax/-/mathjax-4.0.7.tgz#9aef85b04e12eda7d6c2506fbc676c40837ffc11"
+  integrity sha512-FwdZmaGXJ3AY8u68k8ZBXvck3SgOLAjruc0c0nCqdQC/ahK/l1xwPjabE/cqcWCHQtBbzMgZpxLbwGnP8Uszuw==
+  dependencies:
+    load-script "^1.0.0"
+    react "^16.13.0"
+    react-dom "^16.13.0"
+
 "@nteract/octicons@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@nteract/octicons/-/octicons-2.0.0.tgz#eccd5de8bc0ef4d1bb4154b791db80f4f6bac995"
   integrity sha512-wQHZMgYJHnZw/ozCeG/cwfUPiQDpmkmF8G57quKpWCMbBBLEN1tUhjRzcZ9IdJyZsiu0dxenjDhOs5+m5DHYGA==
 
-"@nteract/outputs@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@nteract/outputs/-/outputs-2.5.0.tgz#7bd96d1433b4eef963e35049244a5a750027fe15"
-  integrity sha512-+vms6m6dgGeFjE9HH89T5BWh40tN+a73+dBF1GqOwS0l6KIFh7NjpYTtBw8T+gw+pE4voeV23/iAUECyb99ThA==
+"@nteract/outputs@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@nteract/outputs/-/outputs-2.4.0.tgz#774f9fb09a6d40ceed1514f19284d006eae8f940"
+  integrity sha512-f5BS7j0FwR0UZEI4EE1ZP05ZcbMv9Lb0OD3JeRgHrEH6L0SiMjEFwjkSkwmPyK/JzIxNNvfibyvuAOp/u3G0Ow==
   dependencies:
-    "@nteract/markdown" "^4.2.0"
+    "@nteract/markdown" "^4.1.0"
     "@nteract/mathjax" "^4.0.1"
     ansi-to-react "^5.1.0"
     react-json-tree "^0.11.0"
     styled-components "^4.1.3"
 
-"@nteract/presentational-components@^3.1.0", "@nteract/presentational-components@^3.2.0":
+"@nteract/presentational-components@^3.1.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@nteract/presentational-components/-/presentational-components-3.2.0.tgz#80e54d8990bb50097ac05e2417cb0f0a688ad6bc"
   integrity sha512-0JFfSKCiT/KRt+R//35EALF6Raz81DPWP+xuHA7Vh9LBrpNfZb4xBchld2zAUvbc5q//NCitErYesZ45fQEf1w==
@@ -1490,6 +1499,15 @@
     "@blueprintjs/select" "^3.2.0"
     react-syntax-highlighter "^11.0.2"
     styled-components "^4.1.3"
+
+"@nteract/presentational-components@^3.3.7":
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/@nteract/presentational-components/-/presentational-components-3.3.7.tgz#14830310fc97f2f39691eb1402760b9dbccaa61f"
+  integrity sha512-Bu1gnTul71lqd4gzB6KIHZ7i38XGyHc9Zyi2JA/haqf1aJsQwCQhZqGhDGpYv4o5UE294SNH0hCbDdlJBewPVg==
+  dependencies:
+    "@blueprintjs/core" "^3.7.0"
+    "@blueprintjs/select" "^3.2.0"
+    react-syntax-highlighter "^12.0.0"
 
 "@nteract/transform-geojson@^5.1.0":
   version "5.1.0"
@@ -2355,9 +2373,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.3.0"
@@ -6454,6 +6472,11 @@ highlight.js@~9.13.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.1.tgz#054586d53a6863311168488a0f58d6c505ce641e"
   integrity sha512-Sc28JNQNDzaH6PORtRLMvif9RSn1mYuOoX3omVjnb0+HbpPygU2ALBI0R/wsiqCb4/fcp07Gdo8g+fhtFrQl6A==
 
+highlight.js@~9.15.0, highlight.js@~9.15.1:
+  version "9.15.10"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
+  integrity sha512-RoV7OkQm0T3os3Dd2VHLNMoaoDVx77Wygln3n9l5YV172XonWG6rgQD3XnF/BuFFZw9A0TJgmMSO8FEWQgvcXw==
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -8032,6 +8055,11 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
+
 loader-fs-cache@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/loader-fs-cache/-/loader-fs-cache-1.0.2.tgz#54cedf6b727e1779fd8f01205f05f6e88706f086"
@@ -8168,6 +8196,14 @@ lower-case@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
+
+lowlight@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-1.12.1.tgz#014acf8dd73a370e02ff1cc61debcde3bb1681eb"
+  integrity sha512-OqaVxMGIESnawn+TU/QMV5BJLbUghUfjDWPAtFqDYDmDtr4FnB+op8xM+pR7nKlauHNUHXGt0VgWatFB8voS5w==
+  dependencies:
+    fault "^1.0.2"
+    highlight.js "~9.15.0"
 
 lowlight@~1.11.0:
   version "1.11.0"
@@ -10628,6 +10664,16 @@ react-dom@^16.12.0, react-dom@^16.8.3:
     prop-types "^15.6.2"
     scheduler "^0.18.0"
 
+react-dom@^16.13.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
+  integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.0"
+
 react-draggable@^4.0.3:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-4.1.0.tgz#e1c5b774001e32f0bff397254e1e9d5448ac92a4"
@@ -10823,6 +10869,17 @@ react-syntax-highlighter@^11.0.2:
     prismjs "^1.8.4"
     refractor "^2.4.1"
 
+react-syntax-highlighter@^12.0.0:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-12.2.1.tgz#14d78352da1c1c3f93c6698b70ec7c706b83493e"
+  integrity sha512-CTsp0ZWijwKRYFg9xhkWD4DSpQqE4vb2NKVMdPAkomnILSmsNBHE0n5GuI5zB+PU3ySVvXvdt9jo+ViD9XibCA==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    highlight.js "~9.15.1"
+    lowlight "1.12.1"
+    prismjs "^1.8.4"
+    refractor "^2.4.1"
+
 react-syntax-highlighter@^8.0.1:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-8.1.0.tgz#59103ff17a828a27ed7c8f035ae2558f09b6b78c"
@@ -10871,6 +10928,15 @@ react@^16.12.0, react@^16.8.3:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+
+react@^16.13.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
+  integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -11425,6 +11491,14 @@ scheduler@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
   integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.0.tgz#a715d56302de403df742f4a9be11975b32f5698d"
+  integrity sha512-xowbVaTPe9r7y7RUejcK73/j8tt2jfiyTednOvHbA8JoClvMYCp+r8QegLwK/n8zWQAtZb1fFnER4XLBZXrCxA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
