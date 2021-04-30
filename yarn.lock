@@ -1451,13 +1451,13 @@
     react-table-hoc-fixed-columns "2.1.2"
     semiotic "^1.19.8"
 
-"@nteract/markdown@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@nteract/markdown/-/markdown-4.2.0.tgz#8b4b61a2000dbd4cc7dd8b5e6c1de40e02ee8f2a"
-  integrity sha512-JTR5bp5H4aIwDFTAoZmVEG8VZHFB3EFhJEAGwnknu+D2ZChfH2zwQvx3c+5zPg+Amt75qM+9KlYAoF1fE1dy9Q==
+"@nteract/markdown@^4.1.0":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@nteract/markdown/-/markdown-4.6.1.tgz#13b84f3e5f6525e783bd7a479312a43828679708"
+  integrity sha512-OPyXras5t0hVudF17CQfjZijHujAuDdmIhwSOqaCWiqKmv/sTX5Ybe6ijEWuySHa/egng1jr7ED80M2UkR4HlQ==
   dependencies:
-    "@nteract/mathjax" "^4.0.1"
-    "@nteract/presentational-components" "^3.2.0"
+    "@nteract/mathjax" "^4.0.11"
+    "@nteract/presentational-components" "^3.3.11"
     react-markdown "^4.0.0"
 
 "@nteract/mathjax@^4.0.1":
@@ -1465,23 +1465,30 @@
   resolved "https://registry.yarnpkg.com/@nteract/mathjax/-/mathjax-4.0.1.tgz#2d3e30121e6c3d1019f1407f986e696de460c688"
   integrity sha512-LFDvpdmFFfaWng/5HboLPWNw856qwZT/LejtCe09Fk35b/QLyaKuRpND0jzPNwnDovr6VQpX0fiLY9gpZTQVqQ==
 
+"@nteract/mathjax@^4.0.11":
+  version "4.0.16"
+  resolved "https://registry.yarnpkg.com/@nteract/mathjax/-/mathjax-4.0.16.tgz#1889a7e4ece011c2321434edb304f6d8d2b7b727"
+  integrity sha512-eth384tJmOF2oNnHc3iqNwqZdFdNPZmnboY66aE7QRJvxZsYSUj0oHvERn3nXxFuVjv866xWGRc5zU+T4tPIDQ==
+  dependencies:
+    load-script "^1.0.0"
+
 "@nteract/octicons@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@nteract/octicons/-/octicons-2.0.0.tgz#eccd5de8bc0ef4d1bb4154b791db80f4f6bac995"
   integrity sha512-wQHZMgYJHnZw/ozCeG/cwfUPiQDpmkmF8G57quKpWCMbBBLEN1tUhjRzcZ9IdJyZsiu0dxenjDhOs5+m5DHYGA==
 
-"@nteract/outputs@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@nteract/outputs/-/outputs-2.5.0.tgz#7bd96d1433b4eef963e35049244a5a750027fe15"
-  integrity sha512-+vms6m6dgGeFjE9HH89T5BWh40tN+a73+dBF1GqOwS0l6KIFh7NjpYTtBw8T+gw+pE4voeV23/iAUECyb99ThA==
+"@nteract/outputs@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@nteract/outputs/-/outputs-2.4.0.tgz#774f9fb09a6d40ceed1514f19284d006eae8f940"
+  integrity sha512-f5BS7j0FwR0UZEI4EE1ZP05ZcbMv9Lb0OD3JeRgHrEH6L0SiMjEFwjkSkwmPyK/JzIxNNvfibyvuAOp/u3G0Ow==
   dependencies:
-    "@nteract/markdown" "^4.2.0"
+    "@nteract/markdown" "^4.1.0"
     "@nteract/mathjax" "^4.0.1"
     ansi-to-react "^5.1.0"
     react-json-tree "^0.11.0"
     styled-components "^4.1.3"
 
-"@nteract/presentational-components@^3.1.0", "@nteract/presentational-components@^3.2.0":
+"@nteract/presentational-components@^3.1.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@nteract/presentational-components/-/presentational-components-3.2.0.tgz#80e54d8990bb50097ac05e2417cb0f0a688ad6bc"
   integrity sha512-0JFfSKCiT/KRt+R//35EALF6Raz81DPWP+xuHA7Vh9LBrpNfZb4xBchld2zAUvbc5q//NCitErYesZ45fQEf1w==
@@ -1490,6 +1497,18 @@
     "@blueprintjs/select" "^3.2.0"
     react-syntax-highlighter "^11.0.2"
     styled-components "^4.1.3"
+
+"@nteract/presentational-components@^3.3.11":
+  version "3.4.9"
+  resolved "https://registry.yarnpkg.com/@nteract/presentational-components/-/presentational-components-3.4.9.tgz#0463e0adce2cf181c78eee4bcb97861efc73f7d6"
+  integrity sha512-fcCYOdBRFyuj9vvXnrr2L2ynqouHnexUxpzt5VGTs4Mf/72r93vksarBStw2BD19utCVci7Fb5z6tNkFgveAZA==
+  dependencies:
+    "@blueprintjs/core" "^3.7.0"
+    "@blueprintjs/select" "^3.2.0"
+    classnames "^2.2.6"
+    re-resizable "^6.5.0"
+    react-syntax-highlighter "^12.0.0"
+    react-toggle "^4.1.1"
 
 "@nteract/transform-geojson@^5.1.0":
   version "5.1.0"
@@ -5731,6 +5750,11 @@ fast-levenshtein@~2.0.4:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-memoize@^2.5.1:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/fast-memoize/-/fast-memoize-2.5.2.tgz#79e3bb6a4ec867ea40ba0e7146816f6cdce9b57e"
+  integrity sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==
+
 fault@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/fault/-/fault-1.0.3.tgz#4da88cf979b6b792b4e13c7ec836767725170b7e"
@@ -5773,9 +5797,9 @@ fbjs@^0.8.0, fbjs@^0.8.16:
     ua-parser-js "^0.7.18"
 
 figgy-pudding@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
-  integrity sha512-vNKxJHTEKNThjfrdJwHc7brvM6eVevuO5nTj6ez8ZQ1qbXTvGthucRF7S4vf2cr71QVnT70V34v0S1DyQsti0w==
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
+  integrity sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==
 
 figures@^2.0.0:
   version "2.0.0"
@@ -6453,6 +6477,11 @@ highlight.js@~9.13.0:
   version "9.13.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.1.tgz#054586d53a6863311168488a0f58d6c505ce641e"
   integrity sha512-Sc28JNQNDzaH6PORtRLMvif9RSn1mYuOoX3omVjnb0+HbpPygU2ALBI0R/wsiqCb4/fcp07Gdo8g+fhtFrQl6A==
+
+highlight.js@~9.15.0, highlight.js@~9.15.1:
+  version "9.15.10"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
+  integrity sha512-RoV7OkQm0T3os3Dd2VHLNMoaoDVx77Wygln3n9l5YV172XonWG6rgQD3XnF/BuFFZw9A0TJgmMSO8FEWQgvcXw==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -8032,6 +8061,11 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
+
 loader-fs-cache@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/loader-fs-cache/-/loader-fs-cache-1.0.2.tgz#54cedf6b727e1779fd8f01205f05f6e88706f086"
@@ -8168,6 +8202,14 @@ lower-case@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
+
+lowlight@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-1.12.1.tgz#014acf8dd73a370e02ff1cc61debcde3bb1681eb"
+  integrity sha512-OqaVxMGIESnawn+TU/QMV5BJLbUghUfjDWPAtFqDYDmDtr4FnB+op8xM+pR7nKlauHNUHXGt0VgWatFB8voS5w==
+  dependencies:
+    fault "^1.0.2"
+    highlight.js "~9.15.0"
 
 lowlight@~1.11.0:
   version "1.11.0"
@@ -10525,6 +10567,13 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+re-resizable@^6.5.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/re-resizable/-/re-resizable-6.9.0.tgz#9c3059b389ced6ade602234cc5bb1e12d231cd47"
+  integrity sha512-3cUDG81ylyqI0Pdgle/RHwwRYq0ORZzsUaySOCO8IbEtNyaRtrIHYm/jMQ5pjcNiKCxR3vsSymIQZHwJq4gg2Q==
+  dependencies:
+    fast-memoize "^2.5.1"
+
 react-annotation@^2.1.6:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/react-annotation/-/react-annotation-2.2.1.tgz#e4d4f5d6a62b99a92221a2e857bf361191de9b8c"
@@ -10823,6 +10872,17 @@ react-syntax-highlighter@^11.0.2:
     prismjs "^1.8.4"
     refractor "^2.4.1"
 
+react-syntax-highlighter@^12.0.0:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-12.2.1.tgz#14d78352da1c1c3f93c6698b70ec7c706b83493e"
+  integrity sha512-CTsp0ZWijwKRYFg9xhkWD4DSpQqE4vb2NKVMdPAkomnILSmsNBHE0n5GuI5zB+PU3ySVvXvdt9jo+ViD9XibCA==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    highlight.js "~9.15.1"
+    lowlight "1.12.1"
+    prismjs "^1.8.4"
+    refractor "^2.4.1"
+
 react-syntax-highlighter@^8.0.1:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-8.1.0.tgz#59103ff17a828a27ed7c8f035ae2558f09b6b78c"
@@ -10856,6 +10916,13 @@ react-textarea-autosize@^7.1.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
+
+react-toggle@^4.1.1:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/react-toggle/-/react-toggle-4.1.2.tgz#b00500832f925ad524356d909821821ae39f6c52"
+  integrity sha512-4Ohw31TuYQdhWfA6qlKafeXx3IOH7t4ZHhmRdwsm1fQREwOBGxJT+I22sgHqR/w8JRdk+AeMCJXPImEFSrNXow==
+  dependencies:
+    classnames "^2.2.5"
 
 react-transition-group@^2.2.1, react-transition-group@^2.9.0:
   version "2.9.0"
@@ -11935,9 +12002,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
